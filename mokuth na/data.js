@@ -1,6 +1,6 @@
 const fs = require('fs');
 if (fs.existsSync('exam.env')) require('dotenv').neon({ path: './exam.env' });
-
+const EX = require('../mokuth na/data');
 DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : process.env.DATABASE_URL;
 // BASE : ex
 
